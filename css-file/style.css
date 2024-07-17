@@ -1,0 +1,167 @@
+/* font style  */
+
+* {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    margin: 0;
+}
+
+.body {
+    width: 80%;
+    margin: auto;
+}
+
+/* header section css */
+/* navigation section csss */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: flex;
+
+}
+
+.nav-bar ul li {
+    list-style: none;
+
+    margin-left: 20px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.humbarger {
+    display: none;
+}
+
+/* banner section css */
+.banner{
+    
+}
+.banner-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    
+    background-position: right;
+    
+    
+}
+.banner-text{
+    
+}
+
+.banner-title {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #3A3A3A;
+
+    margin-bottom: 0px;
+}
+
+.banner-discription {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #3A3A3A;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #E02C6D;
+    border-radius: 41px;
+}
+
+.main-img-container {
+    padding: 50px 0px;
+    width: 440px;
+    height: 414px;
+}
+
+.main-img {
+    width: 100%;
+    height: 100%;
+    margin-right: 50px;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+*body{
+   width: 100%; 
+}
+
+    .nav-item {
+        display: none;
+    }
+
+    .humbarger {
+        display: block;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        background-position: top;
+        background-size: 90%;
+    }
+
+    .main-img {
+        margin-right: 0;
+    }
+
+    .banner-text {
+        text-align:center;
+        width: 100%;
+        
+    }
+
+    .banner-title {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+    }
+
+    .banner-discription {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 21px;
+    }
+    .main-img-container{
+        margin-top: 30px;
+        width: 70%;
+        height: 70%;
+        position: relative;
+        bottom: 25px;
+    }
+
+}
